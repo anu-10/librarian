@@ -1,7 +1,7 @@
 <template>
         <div class="center">
             <v-row>
-                <v-col cols="10" offset="1" offset-sm="3" md="4" offset-md="4">
+                <v-col cols="10" offset="1" sm="6" offset-sm="3" md="4" offset-md="4">
                     <v-avatar
                     color="primary"
                     size="97" tile
@@ -38,10 +38,15 @@
         {
             authenticate()
             {
-                if(this.username=="" || this.username=="")
-                    alert("Fields cannot be Empty.")
+                if(this.username =="" || this.password =="")
+                    alert("Fields cannot be Empty.");
                 else
-                    alert("Login successful.")
+                {
+                    alert("Login successful.");
+                    this.username = "";
+                    this.password = "";
+                }
+                    
             }
         }
     }

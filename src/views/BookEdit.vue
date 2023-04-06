@@ -1,4 +1,4 @@
-<template>
+git<template>
   <div class="center">
     <v-row cols="18" offset="1" sm="8" offset-sm="2" md="6" offset-md="3">
       <v-form>
@@ -16,6 +16,7 @@
     </v-row>
   </div>
 </template>
+
 
 <script>
 import booksList from "@/data/books.json";

@@ -17,3 +17,7 @@
     background-color: var(--primary) !important;
     color: #FFFFFF !important;
 }
+
+.text-right {
+    text-align: right;
+}

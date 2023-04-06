@@ -15,6 +15,7 @@
                     <v-list-item-subtitle>Pages: {{ item.pages }}</v-list-item-subtitle>    
                 </v-list-item-content>
 
+                
                 <v-list-item-icon>
                     <v-menu offset-y>
                     <template v-slot:activator="{ on, attrs }">
